@@ -57,19 +57,22 @@ a
 
 section
 {
-  margin: 5% 15%;
+  margin: 4%;
+  text-align: center;
 }
 section h1
 {
   font-size: 70px;
   margin: 0;
   color: #00BCD4;
+  text-align: left;
 }
 section h5
 {
   font-size: 16px;
   margin: 0 0 55px;
   color: #90A4AE;
+  text-align: left;
 }
 section .block
 {
@@ -109,4 +112,18 @@ section .block .content span
     padding: 10px;
     border-radius: 100px;
     font-size: 22px;
+}
+
+
+
+@media(max-width: 500px)
+{
+  section .block img
+  {
+    width: 100%;
+  }
+  section h1 
+  {
+    font-size: 50px;
+  }
 }
